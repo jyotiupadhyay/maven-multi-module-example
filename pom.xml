@@ -27,19 +27,5 @@
    </repository>
 </distributionManagement>
 
-<build>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>3.0.0-M1</version>
-          <configuration>
-            <autoVersionSubmodules>true</autoVersionSubmodules>
-            <pushChanges>false</pushChanges>
-            <localCheckout>true</localCheckout>
-            <tagNameFormat>@{project.version}</tagNameFormat>
-          </configuration>
-        </plugin>
-      </plugins>
-</build>
+
 </project>
